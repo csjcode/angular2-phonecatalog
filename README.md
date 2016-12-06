@@ -33,7 +33,7 @@ Angular2 phone catalog
 * Add new CSS file link in html file
 * In Angular, the view is a projection of the model through the HTML template.
 
-### Step 2
+### Step 2 - Angular Template basic structure
 
 * Update index.html - <html ng-app="phonecatApp">
 * Update index.html - <body ng-controller="PhoneListController">
@@ -43,8 +43,12 @@ Angular2 phone catalog
 * npm test
 * testing is off because I started with some other tests in there (from later in the tut).
 
-### Step 3
+### Step 3 - Components
 
+* refactoring to create Component
+* Edit: app/index.html
+* Edit: app/app.js
+* Edit: app/phone-list.component.js
 
 
 from original source tutorial:
