@@ -49,6 +49,8 @@ Angular2 phone catalog
 * Edit: app/index.html
 * Edit: app/app.js
 * Edit: app/phone-list.component.js
+* npm start
+* http://localhost:8000/index.html
 
 
 from original source tutorial:
