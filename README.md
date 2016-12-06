@@ -29,6 +29,13 @@ Angular2 phone catalog
 
 ### Step 1
 
+* Add new html per tutorial
+* Add new CSS file link in html file
+* In Angular, the view is a projection of the model through the HTML template.
+
+### Step 1
+
+
 
 from original source tutorial:
 https://docs.angularjs.org/tutorial
