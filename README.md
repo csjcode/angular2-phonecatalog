@@ -33,7 +33,17 @@ Angular2 phone catalog
 * Add new CSS file link in html file
 * In Angular, the view is a projection of the model through the HTML template.
 
-### Step 1
+### Step 2
+
+* Update index.html - <html ng-app="phonecatApp">
+* Update index.html - <body ng-controller="PhoneListController">
+* Update index.html - <li ng-repeat="phone in phones"><span>{{phone.name}}</span><p>{{phone.snippet}}</p></li>
+* Creat Model: app.js file, add code
+* Test it: app/app.spec.js: add new code
+* npm test
+* testing is off because I started with some other tests in there (from later in the tut).
+
+### Step 3
 
 
 
