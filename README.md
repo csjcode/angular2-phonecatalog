@@ -81,7 +81,11 @@ Angular2 phone catalog
 *  update app/phone-list/phone-list.component.js - inline annotation where, instead of just providing the function, you provide an array.
 * added to html template to see JSON: <pre>{{$ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp | json}}</pre>
 
+### 8 - Templating links and images for the phones
 
+* Add individual JSON phone files
+* Link to phone files app/phone-list/phone-list.template.html
+*
 
 
 from original source tutorial:
