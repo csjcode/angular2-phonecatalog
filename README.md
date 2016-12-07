@@ -63,7 +63,24 @@ Angular2 phone catalog
 ### 5 - Filtering Repeaters
 
 * Update Phone list component HTML template to add search box
-* 
+
+### 6 - 2 Way Data Binding
+
+* Update Phone list component HTML template
+* Add "age" to Controller
+
+### 7 - XHR & Dependency Injection
+
+* create app/phones/phones.json
+* update app/phone-list/phone-list.component.js for JSON
+
+    $http.get('phones/phones.json').then(function(response) {
+    self.phones = response.data;
+    });
+
+*  update app/phone-list/phone-list.component.js - inline annotation where, instead of just providing the function, you provide an array.
+* added to html template to see JSON: <pre>{{$ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp | json}}</pre>
+
 
 
 
