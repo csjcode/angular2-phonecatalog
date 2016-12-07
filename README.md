@@ -43,7 +43,7 @@ Angular2 phone catalog
 * npm test
 * testing is off because I started with some other tests in there (from later in the tut).
 
-### Step 3 - Components
+### Step 3 - Components (refactor)
 
 * refactoring to create Component
 * Edit: app/index.html
@@ -51,6 +51,10 @@ Angular2 phone catalog
 * Edit: app/phone-list.component.js
 * npm start
 * http://localhost:8000/index.html
+
+### 4 - Directory and File Organization
+
+
 
 
 from original source tutorial:
