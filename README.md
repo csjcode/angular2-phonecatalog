@@ -60,6 +60,12 @@ Angular2 phone catalog
 * Add a templateURL in phone-list.component.js
 * Make sure to update index.html to all JS new scripts and delete app.js
 
+### 5 - Filtering Repeaters
+
+* Update Phone list component HTML template to add search box
+* 
+
+
 
 from original source tutorial:
 https://docs.angularjs.org/tutorial
