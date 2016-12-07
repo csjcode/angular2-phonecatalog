@@ -1,6 +1,8 @@
 # angular2-phonecatalog
 Angular2 phone catalog
 
+Note: Originally I started with all files including some from the finished project, so I copied over the Step 0 files, overwrote those. As a result, there are a lto of extra files in the early checkins which are not used until later in the project.
+
 
 ### Instructions
 
@@ -96,7 +98,18 @@ Angular2 phone catalog
 * create app/phone-detail/phone-detail.module.js
 * create app/phone-detail/phone-detail.component.js
 * update modules in app.module.js
-* 
+
+### 10 - Templating
+
+* app/phone-detail/phone-detail.component.js: To construct the URL for the HTTP request, we use $routeParams.phoneId
+* app/phone-detail/phone-detail.template.html: Add Phone Detail view
+
+### 11 - Custom Filters
+
+* app/core/core.module.js: create sitewide core module
+* app/core/checkmark/checkmark.filter.js : filter checkmark
+* app/app.module.js: add core
+* app/index.html: add core.module and checkmark file
 
 from original source tutorial:
 https://docs.angularjs.org/tutorial
