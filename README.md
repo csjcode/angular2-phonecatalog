@@ -85,8 +85,18 @@ Angular2 phone catalog
 
 * Add individual JSON phone files
 * Link to phone files app/phone-list/phone-list.template.html
-*
 
+### 9 - Routing & Multiple Views
+
+* Update bower.json with routes module
+* npm install
+* added four new <script> tags in our index.html
+* removed the <phone-list></phone-list> line from the index.html template and replaced it with a <div> with the ng-view
+* update app.config.js: request the necessary providers
+* create app/phone-detail/phone-detail.module.js
+* create app/phone-detail/phone-detail.component.js
+* update modules in app.module.js
+* 
 
 from original source tutorial:
 https://docs.angularjs.org/tutorial
