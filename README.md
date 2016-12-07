@@ -54,7 +54,11 @@ Angular2 phone catalog
 
 ### 4 - Directory and File Organization
 
-
+* Define the phoneList module (app/phone-list/phone-list.module.js)
+* Register the phoneList component on the phoneList module (app/phone-list/phone-list.component.js)
+* Define the phonecatApp module (app/app.module.js)
+* Add a templateURL in phone-list.component.js
+* Make sure to update index.html to all JS new scripts and delete app.js
 
 
 from original source tutorial:
